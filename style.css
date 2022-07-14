@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Crimson+Text:ital,wght@0,700;1,600;1,700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar {
+	/* background-color: aqua; */
+	background-color:rgba(135, 228, 235, 0.66);
+	/* width: 434px; */
+	font-family: 'Crimson Text', serif;
+	height: 100vh;
+	transition: transform 0.3s ease-in;
+	position: absolute;
+}
+
+.sidebar nav {
+	padding: 45px;
+}
+
+.sidebar nav li {
+	list-style: none;
+	font-size: 30px;
+	padding: 33px;
+}
+
+.sidebar nav li a {
+	text-decoration: none;
+	color: black;
+}
+
+.main {
+	/* background-color: salmon; */
+	width: 90vw;
+}
+
+.container {
+	display: flex;
+	background-image: url("d.jpg");
+	background-repeat: no-repeat;
+	height:1800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.infocontainer {
+	background-color: pink;
+	height: 68vh;
+	width: 80vw;
+	margin: 144px auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.devinfo {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 16px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.devpic img {
+	padding: 30px;
+	height: 60vh;
+}
+
+.hello {
+	font-size: 3em;
+	padding-top: 10px;
+
+}
+
+.name {
+	font-size: 3em;
+	font-weight: bold;
+	font-family: 'Arvo', serif;
+	font-family: 'Crimson Text', serif;
+}
+
+.about {
+	font-size: 2.5em;
+}
+
+.buttons {
+	margin-top: 2.2em;
+	font-size: 16px;
+}
+
+.btn {
+	padding: 9px 14px;
+	border-radius: 18px;
+	color:black;
+	background-color:grey;
+	font-weight: bold;
+	font-size: 21px;
+	margin: 3px 3px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color:white;
+
+}
+
+.btn-sm {
+	font-size: 20px;
+	padding: 10px 19px;
+	margin: 12px 0;
+}
+
+.contactform {
+	font-family: 'Arvo', serif;
+	font-family: 'Crimson Text', serif;
+	/* padding-top:244px; */
+	padding: 144px 40px;
+	font-size: 20px;
+	margin: 88px;
+
+}
+
+.contactform h1 {
+	font-family:'Times New Roman', Times, serif;
+	/* padding: 12px 0; */
+	 padding-left:40px;
+	 padding-top:50px;
+}
+
+.contactform form div {
+	padding: 20px 0px;
+	display: flex;
+	flex-direction: column;
+}
+
+.contactform form {
+	margin: 0 40px;
+}
+
+.contactform form div input {
+	/* width:26vw; */
+	border-radius: 5px;
+	font-size: 17px;
+	margin: 6px 0 0 0;
+	padding: 3px;
+}
+
+#emailHelp {
+	font-size: 15px;
+	color: rgb(255, 127, 174);
+	margin: 0 5px;
+	padding: 3px 0 0 0;
+}
+
+#Yourmessage {
+	height: 13vh;
+}
+
+.achitem {
+	margin: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.ach h1 {
+	font-family: 'Times New Roman', Times, serif;
+	margin: 23px;
+	font-size: 50px;
+	text-align: center;
+	Padding-top: 100px;
+}
+
+.achitem p {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+}
+
+.achitem h2 {
+	font-size: 30px;
+}
+
+.certificate {
+	text-align: center;
+	padding-top: 34px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.ach {
+	margin: 40px 88px;
+}
+
+.certificate a {
+	font-size: 25px;
+	text-align: center;
+	font-size: 40px;
+	text-decoration: none;
+
+}
+
+.certificate a:hover {
+	background-color: rgba(165, 42, 157, 0.842);
+	color: white;
+}
+
+.aboutme {
+	padding-top: 40px;
+	padding-left: 40px;
+	font-size: 20px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin: 40px 88px;
+}
+
+
+.education {
+	padding-top: 40px;
+
+}
+
+.education table,
+th,
+td {
+	/* border: outset; */
+	text-align:left;
+	border-color:black;
+	padding-left: 50px;
+	padding-bottom: 50px;
+font-size: 40px;
+border:1px outset;
+
+
+}
+.education h2{
+	font-size: 40px;
+}
+
+.hobbies {
+	padding-top: 30px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 25px;
+}
+
+.hobbies ul {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+/* .center{
+	margin-left: auto;
+	margin-right: auto;
+}
+ */
+.hobbies img {
+	padding-top: 10px;
+	width: 340px;
+	height: 340px;
+	border: solid black;
+
+}
+
+.hobbies img:hover {
+	opacity: 0.5;
+}
+
+.hobbies p {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-size: 30px;
+
+}
+
+#Yourguess {
+	padding-top: 200px;
+	padding-left: 250px;
+	border-radius: 5px;
+}
+
+.mb-3 {
+	font-size: 34px;
+
+}
+
+.twist {
+	padding-top: 34px;
+	font-size: 30px;
+	 /* background-color:white;  */
+	/* border: 1px solid black; */
+	color:purple;
+}
+
+.skill {
+	width: 300px;
+	height: 7px;
+	background-color: brown;
+	margin:auto;
+	
+	
+}
+
+.intro h2 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 30px;
+}
+
+.skills {
+	padding:45px;
+	align-items: center;
+	background-color:peachpuff;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 3em;
+margin-left: 20px;
+}
+
+.intro h2{
+	margin: 40px 88px;
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size:40px;
+}
+
+
+.ski {
+	display: flex;
+}
+
+.hun {
+	width: 265px;
+}
+
+.fif {
+	width: 125px;
+}
+
+.sif {
+	width: 75px;
+}
+
+@media(max-width:1100px) {
+	.devpic {
+		display: none;
+	}
+
+	.aboutme,
+	.ach,
+	.contactForm,
+	.intro {
+		margin: 50px 8px;
+
+	}
+
+	.devinfo {
+		font-size: 10px;
+	}
+
+	.buttons {
+		font-size: 7px;
+	}
+
+	/* .sidebar{
+		transform:translate(-443px,0px);
+		position:absolute;
+	} */
+}
+
+.hamburger {
+	position: absolute;
+	cursor: pointer;
+	top: 10px;
+	left: 10px;
+}
+
+.cross {
+	margin-left: 280px;
+	margin-top: 12px;
+}
+
+.sidebargo {
+	transform: translate(-443px, 0px);
+	position: absolute;
+}
+
+.ham {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.social a{
+	padding:30px
+}
+.social h1{
+	padding:30px;
+}
+.social img:hover{
+	opacity:0.5;
+	
+}
+.aboutme p{
+	padding-top: 20px;
+	font-size:1.5em;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	background-color:lightcyan
+}
+.aboutme,.education,.hobbies,.twist{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	
+}
+#Yourguess{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1.2em;
+}
+
+
